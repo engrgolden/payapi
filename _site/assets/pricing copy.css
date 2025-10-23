@@ -1,0 +1,83 @@
+.pricing h1 {
+  text-align: center;
+}
+
+.pricing-plans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin: 0 auto;
+}
+
+.pricing-plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff66;
+  padding: 1.5rem;
+  max-width: 600px;
+  border-radius: 1.5rem;
+}
+
+.pricing-plan h2 {
+  color: #b23f6f;
+  font-family: "DM Serif Display";
+}
+
+.pricing-plan .price {
+  margin: 0.5rem 0;
+}
+
+.pricing-plan i {
+  color: #b23f6f;
+  margin-right: 1rem;
+}
+
+.pricing hr {
+  width: 100%;
+  max-width: 300px;
+  height: 1px;
+  background-color: #6b8294;
+}
+
+.pricing-plan .description {
+  color: #6b8294;
+}
+
+.pricing-plan ul {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  gap: 1rem;
+}
+
+.pricing-plan li {
+  color: #6b8294;
+}
+
+.pricing-plan button {
+  border: 1px solid #1d2731;
+  color: #1d2731;
+  font-weight: 600;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-family: "Public Sans";
+}
+
+.pricing-plan button:hover {
+  background-color: #1d2731;
+  color: white;
+}
+
+@media (min-width: 896px) {
+  .pricing h1 {
+    text-align: start;
+  }
+
+  .pricing-plans {
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
